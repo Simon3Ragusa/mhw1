@@ -1,0 +1,370 @@
+body{
+    margin: 0;
+    background-color: azure;
+    font-family: 'Dosis', sans-serif;
+}
+
+#menu{
+    display: none;
+    margin-top: 20px;
+}
+
+#menu div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(26, 28, 22);
+    margin: 10px 20px;
+}
+
+header{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/071/822/original/template-for-science-and-technology-concept-background-free-vector.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    height: 500px;
+    font-size: 2.2em;
+    margin: 0;  
+}
+
+#main-title{
+    line-height: 10%;
+    width: 780px;
+    text-align: end;
+    margin: 90px 10px;
+}
+
+#overlay{
+    background-color: grey;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 1%;
+
+    justify-content: space-between;
+    font-weight: 1000;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+    margin: 5px;
+}
+
+.logo img{
+    height: 13vh;
+    padding: 0px 0px 0px 0px;
+}
+
+.logo a{
+    margin-top: 5px;
+    color: rgb(26, 28, 22);
+}
+
+#links{
+    width: 45%;
+    font-size: .7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+#links a{
+    margin: 0;
+    color: teal;
+}
+
+#links .generic:hover{
+    color: azure;
+}
+
+.button{
+    border: 2.5px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#top:hover{
+    background-color: azure;
+    color: teal;
+}
+
+a{
+    cursor: pointer;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+#profile{
+    display: flex;
+    position: absolute;
+    line-height: 0%;
+    margin-top: -60px;
+    background-color: rgb(212, 244, 244);
+    border: 5px solid rgb(26, 28, 22);
+    padding: .3%;
+
+    width: 40%;
+    height: fit-content;
+    border-radius: 50px;
+    font-size: .8em;
+    margin-left: 5px;
+}
+
+#profile img{
+    height: 100px;
+    margin-top: -.5%;
+}
+
+#profile div{
+    line-height: 70%;
+    font-size: 1.2em;
+    margin-left: 1%;
+    margin-top: 1%;
+    letter-spacing: 1px;
+}
+
+#profile p{
+    font-weight: 600;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: .5%;
+
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 66.7%;
+}
+
+#main{
+    /*La sezione dei contenuti inizia a partire dal paragrafo
+    "main" , al fine di rendere più leggibile il resto della pagina.
+    Quindi i 60px da considerare sono quelli tra la sezione "profilo"
+    e la sezione "main"*/
+    width: 66.7%;
+    top: 560px;
+    height: fit-content;
+    line-height: 20px;
+
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: .9em;
+}
+
+.numeration{
+    display: flex;
+    justify-content: center;
+
+    margin-left: -50px;
+}
+
+.number{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px solid rgb(26, 28, 22);
+    background-color: rgba(94, 181, 152, 0.538);
+    border-radius: 10px;
+    margin-bottom: 120px;
+    margin-right: 2%;
+    margin-left: 40px;
+
+    padding: .2%;
+}
+
+.details img{
+    border-radius: 10px;
+    width: 90%;
+    border: solid rgb(26, 28, 22);
+    
+    padding: .1%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.details h2{
+    font-size: 2em;
+    margin: 20px 0px;
+}
+
+.details p{
+    margin-bottom: 20px;
+}
+
+.details div{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 1%;
+    height: fit-content;
+}
+
+a.normal{
+    border: 2px solid rgb(26, 28, 22);
+    border-radius: 20px;
+    padding: 10px;
+    color: teal;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    bottom: -6px;
+    font-size: 1.3rem;
+}
+
+a.normal:hover{
+    background-color: teal;
+    color: azure;
+    font-weight: 600;
+}
+
+.mobile{
+    display: none;
+}
+
+a.mobile{
+    border: 2px solid rgb(26, 28, 22);
+    border-radius: 20px;
+    padding: 10px;
+    color: teal;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.author{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+footer{
+    height: 15vh;
+    background-color: rgb(27, 42, 34);
+    color: azure;
+    padding: 50px;
+    text-align: center;
+}
+
+
+#abbonamento{
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+}
+
+#abbonamento div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(117, 222, 201);
+    border: 2px solid rgb(26, 28, 22);
+    padding: 4%;
+    border-radius: 50px;
+    text-align: center;
+    
+    margin-bottom: 2%;
+}
+
+#abbonamento a{
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 10%;
+}
+
+#abbonamento a:hover{
+    background-color: azure;
+    border: solid rgb(26, 28, 22);
+}
+
+
+#main span,
+.details p,
+#abbonamento p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#main a:hover{
+    color: teal;
+}
+
+@media (max-width: 580px){
+    #links{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    #main-title{
+        width: 50%;
+        font-size: .7em;
+    }
+
+    .normal{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+}
+
+@media (max-width: 964px){
+    #links{
+        font-size: .5em;
+    }
+}
+
+@media (max-width: 760px){
+    #links{
+        font-size: .4em;
+    }
+}
+
+
+@media (max-width: 800px){
+    #profile{
+        width: 325px;
+    }
+}
